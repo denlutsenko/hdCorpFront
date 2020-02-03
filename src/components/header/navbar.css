@@ -1,0 +1,23 @@
+.nav-link {
+  color:lightgray;
+}    
+
+.nav-link:visited {
+  color:lightgray;
+}  
+
+.nav-link:hover {
+  color: white;
+}  
+
+.nav-link:active {
+  color: white;
+} 
+
+.onTop {
+  z-index: 999;
+}
+
+.btn-container {
+  z-index: 20;
+}

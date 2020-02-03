@@ -1,0 +1,32 @@
+{
+  "name": "hdcorp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "qs": "^6.7.0",
+    "query-string": "^6.5.0",
+    "react": "^16.8.6",
+    "react-bootstrap": "^0.32.4",
+    "react-bootstrap-table-next": "^1.4.4",
+    "react-bootstrap-table2-editor": "^1.2.3",
+    "react-bootstrap-table2-filter": "^1.1.9",
+    "react-bootstrap-table2-toolkit": "^1.4.2",
+    "react-dom": "^16.8.6",
+    "react-loader": "^2.4.5",
+    "react-redux": "^5.1.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5",
+    "reactstrap": "^6.5.0",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

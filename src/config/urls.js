@@ -1,0 +1,26 @@
+const host = 'http://185.25.116.156:9292';
+
+export default {
+  login: host + '/api/v1/auth/login',
+  balance: host + '/account/remains/report/',
+  production: host + '/account/postcardProduction',
+  addPostcards: host + '/account/postcardProduction/add',
+  orders: host + '/account/orders',
+  addOrder: host + '/account/orders/addOrder',
+  userList: host + '/account/administration/users/all',
+  roles: host + '/account/administration/users/newUser',
+  newUser: host + '/account/administration/users/addNewUser',
+  updateUser: host + '/account/administration/users/updateUser',
+  deleteUser: host + '/account/administration/users/deleteUser',
+  userDetails: host + '/account/administration/users/getUser/',
+  clients: host + '/account/administration/clients',
+  clientDetails: host + '/account/administration/clients/client/',
+  saveClient: host + '/account/administration/clients/saveClientAndStores',
+  deleteClient: host + '/account/administration/clients/client/delete/',
+  postcards: host + '/account/administration/postcards',
+  deletePostcard: host + '/account/administration/postcards/delete/',
+  updatePostcard: host + '/account/administration/updatePostcards/updatePostcard/',
+  postcardDetails: host + '/account/administration/getPostcard/',
+  postcardTypes: host + '/account/administration/postcardTypes',
+  savePostcard: host + '/account/administration/postcards/savePostcard',
+}
